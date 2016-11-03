@@ -34,7 +34,7 @@ es = Cabin::Output::ElasticSearch.new(url: 'http://elasticsearch.example.com:920
 @logger.subscribe(es)
 
 # Send logs just like normal
-@logger.info "Test Message", {some: 'data', nested { data: 'is cool' }}
+@logger.info "Test Message", {some: 'data', nested: { data: 'is cool' }}
 
 # Set the ElasticSearch "_type" on a per-message basis
 @logger.info "Special Message", {some: 'data', _type: 'special'}
