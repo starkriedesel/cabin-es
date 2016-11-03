@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Stark Riedesel"]
   spec.email         = ["starkriedesel@gmail.com"]
 
-  spec.summary       = %q{Cabin output provider for ElasticSearch}
-  spec.description   = %q{Cabin output provider for ElasticSearch}
+  spec.summary       = %q{ElasticSearch output provider for the Ruby Cabin logging framework}
+  spec.description   = %q{ElasticSearch output provider for the Ruby Cabin logging framewor}
   spec.homepage      = "https://www.github.com/starkriedesel/cabin-es"
   spec.license       = "MIT"
 
