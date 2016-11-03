@@ -9,8 +9,8 @@ class Cabin::Outputs::ElasticSearch
     self.urls = es_urls
     self.index = index
     self.type = type || 'cabin'
-    raise Exception.new 'Index must be not blank for Cabin::Outputs::ElasticSearch' if index.nil? or index =~ /^\s*$/
-    raise Exception.new 'Type must be not blank for Cabin::Outputs::ElasticSearch' if type.nil? or type =~ /^\s*$/
+    raise Exception.new 'Index must be not blank for Cabin::Outputs::ElasticSearch' if self.index.nil? or self.index =~ /^\s*$/
+    raise Exception.new 'Type must be not blank for Cabin::Outputs::ElasticSearch' if self.type.nil? or self.type =~ /^\s*$/
     raise Exception.new 'At least one URL must be provided to Cabin::Outputs::ElasticSearch' if es_urls.nil? or es_urls.count == 0
     @es = Elasticsearch::Client.new urls: es_urls, logger: logger
   end
