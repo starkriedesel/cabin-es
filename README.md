@@ -1,6 +1,6 @@
 # Cabin - ElasticSearch
 
-ElasticSearch output for the [Ruby Cabin](https://github.com/jordansissel/ruby-cabin) logging framework.
+[ElasticSearch](https://www.elastic.co/) output provider for the [Ruby Cabin](https://github.com/jordansissel/ruby-cabin) logging framework.
 
 ## Installation
 
