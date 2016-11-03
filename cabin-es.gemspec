@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Stark Riedesel"]
   spec.email         = ["starkriedesel@gmail.com"]
 
-  spec.summary       = %q{Cabin output support for ElasticSearch}
-  spec.description   = %q{Add support for cabin logs to be forwarded to ElasticSearch.}
-  spec.homepage      = "https://www.github.com/starkriedesel"
+  spec.summary       = %q{Cabin output provider for ElasticSearch}
+  spec.description   = %q{Cabin output provider for ElasticSearch}
+  spec.homepage      = "https://www.github.com/starkriedesel/cabin-es"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
